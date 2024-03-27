@@ -33,3 +33,10 @@ I am an economy student and this is my hobby so it may take some time to finaliz
 this is my biggest project so far and intend to share the entire source code in the future!
 
 furthermore, i cant keep doing everything inside the main.cpp (or passwordmanager.cpp as for now) in the future. please do adequate pull requests if needed
+
+# run now?
+if you want to run this project now as it is you need to download and compile cryptopp and add it to your linker, otherwise it will just crash.
+
+you also need to set the adequate include directory and include the compiled cryptlib.lib in your linker dependencies.
+
+if you want to use mingw just pacman install cryptopp and link it directly in the command 
