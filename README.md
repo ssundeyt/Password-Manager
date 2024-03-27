@@ -31,3 +31,5 @@ once im back in my dorm room after easter ill keep working on it
 I am an economy student and this is my hobby so it may take some time to finalize this project. i ask your patient if youre serious about using this app.
 
 this is my biggest project so far and intend to share the entire source code in the future!
+
+furthermore, i cant keep doing everything inside the main.cpp (or passwordmanager.cpp as for now) in the future. please do adequate pull requests if needed
