@@ -1,19 +1,17 @@
 # Password manager in C++
-an attempt to expand my c++ skills into encryption using cryptopp
+A password manager that uses a safe encryption method to store and write passwords that the user inputs.
 
-once im back in my dorm room after easter ill keep working on it 
+**Update a0.0.2**
 
-**Features**
-
-- lets user input/display/delete passwords and encrypts/decypts them using a salt and sha-256
-- added a function to generate a random secure password
-- a masterpassword for the app stored in isFirstRun.txt
-- if its the first run then check if isFirstRun.txt doesnt exist then it will create one and prompt user to create master password
+- Fixed the bug with the infinite loop caused from incorrect input buffer handling
+- Added a better console clear feature
+- checked off the password strength checker. Now displays the security of the password in 'weak', 'moderate' and 'strong' based off a few tests of the chars and length
 
 # Agenda / improvements-to-be-made
 
+- add a password strength checker //check!
 - a GUI like a windows application instead of terminal
-- add a password strength checker
+- add a password changer instead of needing to redo the entire process
 - a more secure storage for passwords
 - automatic timeout/logout
 - backup and restore function
